@@ -1,0 +1,36 @@
+{
+  "name": "cadrage",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Analyse de séquence filmique : Quoi ? Comment ? Pourquoi ?",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3200 --host=0.0.0.0",
+    "api": "tsx watch server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "test": "tsx scripts/check.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "docx": "^9.14.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2"
+  }
+}

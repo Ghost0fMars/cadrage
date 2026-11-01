@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+release/
+
+# Ouvrages sous droits (corpus RAG privé) et sauvegardes
+data/corpus-private/
+data/_backup/
